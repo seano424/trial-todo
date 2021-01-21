@@ -1,0 +1,17 @@
+.ToDos {
+  display: grid;
+  grid-template-columns: 250px 250px;
+}
+
+.Item {
+  padding-right: 10px;
+}
+
+.LineThrough {
+  text-decoration: line-through;
+}
+
+.ToDos h1:nth-child(2) {
+  cursor: pointer;
+  color: #ef476f;
+}

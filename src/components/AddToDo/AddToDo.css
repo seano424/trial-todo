@@ -1,0 +1,30 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  width: 27vw;
+}
+
+.Content {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 7px;
+}
+
+input.Content {
+  border: none;
+  box-shadow: 0 1px 140px #ef476f;
+  outline: none;
+  text-align: center;
+}
+
+button.Content {
+  cursor: pointer;
+  border: none;
+  color: white;
+  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+}
+
+button.Content:hover {
+  background: #06d6a0;
+}
